@@ -3463,16 +3463,17 @@ input, select, textarea {
 			/* text-transform: uppercase; */
 		}
 
-		@media screen and (max-width: 1280px) {
-
+		/* @media screen and (max-width: 1280px) { */
+		@media screen {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.4), rgba(46, 49, 65, 0.4)), url("../../images/cover.jpg");
-				background-size: auto,
- cover;
-				background-position: center,
- center;
+				-webkit-background-size:auto,  cover;
+				-moz-background-size: auto, cover;
+				-o-background-size: auto, cover;
+				background-size: auto, cover;
+				background-position: center, center;
 				margin-bottom: -6.5em;
 			}
 
