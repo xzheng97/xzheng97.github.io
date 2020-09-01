@@ -3108,6 +3108,13 @@ input, select, textarea {
 				border: 0;
 			}
 
+			#header h1 .icons {
+				margin-left:50px;
+				display: inline-flex;
+				justify-content: space-between;
+				width: 120px;
+			}
+
 		#header nav {
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 0.8em;
